@@ -20,7 +20,7 @@ jobs:
                 password: ${{ secrets.DOCKERHUB_PASSWORD }} 
             -  name: "Build our code"
                env:
-                  IMAGE_NAME: ci
+                  IMAGE_NAME: cid
                   VERSION: latest
                   USERNAME: mutiuadeniyi290
                run: |
