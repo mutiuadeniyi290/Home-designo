@@ -14,7 +14,7 @@ jobs:
               run: "sudo docker rm -f starter || true"
 
             - name: "Get the code from Docker Hub"
-              run: "Sudo docker pull mutiuadeniyi290/cid:latest"
+              run: "sudo docker pull mutiuadeniyi290/cid:latest"
               
             - name: "Run the image as a container"
               run: "sudo docker run -d -p 80:80 --name starter mutiuadeniyi290/cid:latest"
